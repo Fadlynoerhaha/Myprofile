@@ -272,7 +272,7 @@ span {
 
 /* Portfolio section design */
 .portofolio {
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .portofolio h2 {
@@ -349,6 +349,9 @@ span {
 }
 
 /* Contact section design */
+.contact{
+  background: var(--second-bg-color);
+}
 .contact h2 {
   margin-bottom: 3rem;
 }
@@ -372,7 +375,7 @@ span {
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--text-color);
-  background: var(--second-bg-color);
+  background: var(--bg-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
 }
@@ -388,6 +391,32 @@ span {
 .contact form .btn {
   margin-top: 2rem;
   cursor: pointer;
+}
+
+/* About Row*/
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
 }
 
 /* Footer design */
