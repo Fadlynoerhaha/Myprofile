@@ -229,7 +229,7 @@ span {
   margin: 2rem 0 3rem;
 }
 
-/* Services section design */
+/* Services section design
 .services h2 {
   margin-bottom: 5rem;
 }
@@ -268,7 +268,7 @@ span {
 .services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
-}
+}*/
 
 /* Portfolio section design */
 .portofolio {
@@ -346,6 +346,48 @@ span {
 .portofolio-layer a i {
   font-size: 2rem;
   color: var(--second-bg-color);
+}
+
+/* Contact section design */
+.contact h2 {
+  margin-bottom: 3rem;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background: var(--second-bg-color);
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
+}
+
+.contact form .input-box input {
+  width: 49%;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form .btn {
+  margin-top: 2rem;
+  cursor: pointer;
 }
 
 /* Footer design */
